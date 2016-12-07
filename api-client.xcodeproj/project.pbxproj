@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A7045F1B1DF508A200B68986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F1A1DF508A200B68986 /* AppDelegate.swift */; };
-		A7045F1D1DF508A200B68986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F1C1DF508A200B68986 /* ViewController.swift */; };
 		A7045F201DF508A200B68986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7045F1E1DF508A200B68986 /* Main.storyboard */; };
 		A7045F221DF508A200B68986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7045F211DF508A200B68986 /* Assets.xcassets */; };
 		A7045F251DF508A200B68986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7045F231DF508A200B68986 /* LaunchScreen.storyboard */; };
 		A7045F301DF508A200B68986 /* api_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F2F1DF508A200B68986 /* api_clientTests.swift */; };
+		A7045F421DF50B7100B68986 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F411DF50B7100B68986 /* MainVC.swift */; };
+		A7045F441DF50BE700B68986 /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F431DF50BE700B68986 /* FoodTruck.swift */; };
+		A7045F461DF5104900B68986 /* FoodTruckReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F451DF5104900B68986 /* FoodTruckReview.swift */; };
+		A7045F481DF5127800B68986 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F471DF5127800B68986 /* DataService.swift */; };
+		A7045F4A1DF5144300B68986 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F491DF5144300B68986 /* Constants.swift */; };
+		A7A5AAA01DF7AE8E00B24949 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AA9F1DF7AE8E00B24949 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,6 @@
 /* Begin PBXFileReference section */
 		A7045F171DF508A200B68986 /* api-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "api-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7045F1A1DF508A200B68986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7045F1C1DF508A200B68986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7045F1F1DF508A200B68986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7045F211DF508A200B68986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7045F241DF508A200B68986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +40,12 @@
 		A7045F2B1DF508A200B68986 /* api-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "api-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7045F2F1DF508A200B68986 /* api_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_clientTests.swift; sourceTree = "<group>"; };
 		A7045F311DF508A200B68986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7045F411DF50B7100B68986 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A7045F431DF50BE700B68986 /* FoodTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
+		A7045F451DF5104900B68986 /* FoodTruckReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckReview.swift; sourceTree = "<group>"; };
+		A7045F471DF5127800B68986 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A7045F491DF5144300B68986 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A7A5AA9F1DF7AE8E00B24949 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +87,11 @@
 		A7045F191DF508A200B68986 /* api-client */ = {
 			isa = PBXGroup;
 			children = (
-				A7045F1A1DF508A200B68986 /* AppDelegate.swift */,
-				A7045F1C1DF508A200B68986 /* ViewController.swift */,
-				A7045F1E1DF508A200B68986 /* Main.storyboard */,
-				A7045F211DF508A200B68986 /* Assets.xcassets */,
-				A7045F231DF508A200B68986 /* LaunchScreen.storyboard */,
-				A7045F261DF508A200B68986 /* Info.plist */,
+				A7045F3E1DF50A3B00B68986 /* View */,
+				A7045F3D1DF50A3600B68986 /* Model */,
+				A7045F3C1DF50A2200B68986 /* Controller */,
+				A7045F3B1DF50A1C00B68986 /* Resources */,
+				A7045F3A1DF50A1100B68986 /* Services */,
 			);
 			path = "api-client";
 			sourceTree = "<group>";
@@ -94,6 +103,52 @@
 				A7045F311DF508A200B68986 /* Info.plist */,
 			);
 			path = "api-clientTests";
+			sourceTree = "<group>";
+		};
+		A7045F3A1DF50A1100B68986 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A7045F471DF5127800B68986 /* DataService.swift */,
+				A7A5AA9F1DF7AE8E00B24949 /* AuthService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		A7045F3B1DF50A1C00B68986 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7045F261DF508A200B68986 /* Info.plist */,
+				A7045F211DF508A200B68986 /* Assets.xcassets */,
+				A7045F491DF5144300B68986 /* Constants.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7045F3C1DF50A2200B68986 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7045F1A1DF508A200B68986 /* AppDelegate.swift */,
+				A7045F411DF50B7100B68986 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A7045F3D1DF50A3600B68986 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7045F431DF50BE700B68986 /* FoodTruck.swift */,
+				A7045F451DF5104900B68986 /* FoodTruckReview.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7045F3E1DF50A3B00B68986 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7045F231DF508A200B68986 /* LaunchScreen.storyboard */,
+				A7045F1E1DF508A200B68986 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +256,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7045F1D1DF508A200B68986 /* ViewController.swift in Sources */,
 				A7045F1B1DF508A200B68986 /* AppDelegate.swift in Sources */,
+				A7045F421DF50B7100B68986 /* MainVC.swift in Sources */,
+				A7045F441DF50BE700B68986 /* FoodTruck.swift in Sources */,
+				A7045F461DF5104900B68986 /* FoodTruckReview.swift in Sources */,
+				A7045F481DF5127800B68986 /* DataService.swift in Sources */,
+				A7045F4A1DF5144300B68986 /* Constants.swift in Sources */,
+				A7A5AAA01DF7AE8E00B24949 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +470,7 @@
 				A7045F361DF508A200B68986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7045F371DF508A200B68986 /* Build configuration list for PBXNativeTarget "api-clientTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +479,7 @@
 				A7045F391DF508A200B68986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
