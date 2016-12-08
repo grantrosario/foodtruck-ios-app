@@ -14,7 +14,7 @@ import Foundation
 typealias callback = (_ success: Bool) -> ()
 
 // Base URL
-let BASE_API_URL = "https://grosdev.com/api/v1"
+let BASE_API_URL = "http://localhost:3005/api/v1"
 
 // GET all food trucks
 let GET_ALL_FT_URL = "\(BASE_API_URL)/foodtruck"
