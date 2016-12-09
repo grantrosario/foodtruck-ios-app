@@ -21,6 +21,7 @@
 		A7A5AAA21DF88A4200B24949 /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AAA11DF88A4200B24949 /* FoodTruckCell.swift */; };
 		A7A5AAA51DF8A22E00B24949 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */; };
 		A7A5AAA61DF8A22E00B24949 /* LogInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A5AAA41DF8A22E00B24949 /* LogInVC.xib */; };
+		A7A5AAA81DFA5C3300B24949 /* AddTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AAA71DFA5C3300B24949 /* AddTruckVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		A7A5AAA11DF88A4200B24949 /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
 		A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		A7A5AAA41DF8A22E00B24949 /* LogInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInVC.xib; sourceTree = "<group>"; };
+		A7A5AAA71DFA5C3300B24949 /* AddTruckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTruckVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				A7045F1A1DF508A200B68986 /* AppDelegate.swift */,
 				A7045F411DF50B7100B68986 /* MainVC.swift */,
 				A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */,
+				A7A5AAA71DFA5C3300B24949 /* AddTruckVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				A7045F461DF5104900B68986 /* FoodTruckReview.swift in Sources */,
 				A7045F481DF5127800B68986 /* DataService.swift in Sources */,
 				A7045F4A1DF5144300B68986 /* Constants.swift in Sources */,
+				A7A5AAA81DFA5C3300B24949 /* AddTruckVC.swift in Sources */,
 				A7A5AAA01DF7AE8E00B24949 /* AuthService.swift in Sources */,
 				A7A5AAA21DF88A4200B24949 /* FoodTruckCell.swift in Sources */,
 				A7A5AAA51DF8A22E00B24949 /* LogInVC.swift in Sources */,
