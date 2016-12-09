@@ -17,6 +17,7 @@
 		A7045F461DF5104900B68986 /* FoodTruckReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F451DF5104900B68986 /* FoodTruckReview.swift */; };
 		A7045F481DF5127800B68986 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F471DF5127800B68986 /* DataService.swift */; };
 		A7045F4A1DF5144300B68986 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F491DF5144300B68986 /* Constants.swift */; };
+		A727D4FF1DFB4F9A00EF4670 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727D4FE1DFB4F9A00EF4670 /* DetailsVC.swift */; };
 		A7A5AAA01DF7AE8E00B24949 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AA9F1DF7AE8E00B24949 /* AuthService.swift */; };
 		A7A5AAA21DF88A4200B24949 /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AAA11DF88A4200B24949 /* FoodTruckCell.swift */; };
 		A7A5AAA51DF8A22E00B24949 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */; };
@@ -49,6 +50,7 @@
 		A7045F451DF5104900B68986 /* FoodTruckReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckReview.swift; sourceTree = "<group>"; };
 		A7045F471DF5127800B68986 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A7045F491DF5144300B68986 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A727D4FE1DFB4F9A00EF4670 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 		A7A5AA9F1DF7AE8E00B24949 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		A7A5AAA11DF88A4200B24949 /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
 		A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				A7045F411DF50B7100B68986 /* MainVC.swift */,
 				A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */,
 				A7A5AAA71DFA5C3300B24949 /* AddTruckVC.swift */,
+				A727D4FE1DFB4F9A00EF4670 /* DetailsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				A7A5AAA01DF7AE8E00B24949 /* AuthService.swift in Sources */,
 				A7A5AAA21DF88A4200B24949 /* FoodTruckCell.swift in Sources */,
 				A7A5AAA51DF8A22E00B24949 /* LogInVC.swift in Sources */,
+				A727D4FF1DFB4F9A00EF4670 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
