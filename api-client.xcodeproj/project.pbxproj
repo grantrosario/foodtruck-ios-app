@@ -18,6 +18,9 @@
 		A7045F481DF5127800B68986 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F471DF5127800B68986 /* DataService.swift */; };
 		A7045F4A1DF5144300B68986 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7045F491DF5144300B68986 /* Constants.swift */; };
 		A727D4FF1DFB4F9A00EF4670 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727D4FE1DFB4F9A00EF4670 /* DetailsVC.swift */; };
+		A727D5011DFB613600EF4670 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727D5001DFB613600EF4670 /* ReviewsVC.swift */; };
+		A727D5031DFB62CB00EF4670 /* AddReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727D5021DFB62CB00EF4670 /* AddReviewVC.swift */; };
+		A727D5051DFB666200EF4670 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727D5041DFB666200EF4670 /* ReviewCell.swift */; };
 		A7A5AAA01DF7AE8E00B24949 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AA9F1DF7AE8E00B24949 /* AuthService.swift */; };
 		A7A5AAA21DF88A4200B24949 /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AAA11DF88A4200B24949 /* FoodTruckCell.swift */; };
 		A7A5AAA51DF8A22E00B24949 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */; };
@@ -51,6 +54,9 @@
 		A7045F471DF5127800B68986 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A7045F491DF5144300B68986 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A727D4FE1DFB4F9A00EF4670 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		A727D5001DFB613600EF4670 /* ReviewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		A727D5021DFB62CB00EF4670 /* AddReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReviewVC.swift; sourceTree = "<group>"; };
+		A727D5041DFB666200EF4670 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		A7A5AA9F1DF7AE8E00B24949 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		A7A5AAA11DF88A4200B24949 /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
 		A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
@@ -142,6 +148,8 @@
 				A7A5AAA31DF8A22E00B24949 /* LogInVC.swift */,
 				A7A5AAA71DFA5C3300B24949 /* AddTruckVC.swift */,
 				A727D4FE1DFB4F9A00EF4670 /* DetailsVC.swift */,
+				A727D5001DFB613600EF4670 /* ReviewsVC.swift */,
+				A727D5021DFB62CB00EF4670 /* AddReviewVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -162,6 +170,7 @@
 				A7045F1E1DF508A200B68986 /* Main.storyboard */,
 				A7A5AAA41DF8A22E00B24949 /* LogInVC.xib */,
 				A7A5AAA11DF88A4200B24949 /* FoodTruckCell.swift */,
+				A727D5041DFB666200EF4670 /* ReviewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -272,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A727D5031DFB62CB00EF4670 /* AddReviewVC.swift in Sources */,
 				A7045F1B1DF508A200B68986 /* AppDelegate.swift in Sources */,
 				A7045F421DF50B7100B68986 /* MainVC.swift in Sources */,
 				A7045F441DF50BE700B68986 /* FoodTruck.swift in Sources */,
@@ -280,9 +290,11 @@
 				A7045F4A1DF5144300B68986 /* Constants.swift in Sources */,
 				A7A5AAA81DFA5C3300B24949 /* AddTruckVC.swift in Sources */,
 				A7A5AAA01DF7AE8E00B24949 /* AuthService.swift in Sources */,
+				A727D5011DFB613600EF4670 /* ReviewsVC.swift in Sources */,
 				A7A5AAA21DF88A4200B24949 /* FoodTruckCell.swift in Sources */,
 				A7A5AAA51DF8A22E00B24949 /* LogInVC.swift in Sources */,
 				A727D4FF1DFB4F9A00EF4670 /* DetailsVC.swift in Sources */,
+				A727D5051DFB666200EF4670 /* ReviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
